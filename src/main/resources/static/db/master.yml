@@ -1,0 +1,13 @@
+databaseChangeLog:
+    -   include:
+            file: 1_flight.sql
+            relativeToChangelogFile: true
+            context: dev
+    -   include:
+            file: 2_passenger.sql
+            relativeToChangelogFile: true
+            context: dev
+    -   include:
+            file: 3_flight_passenger.sql
+            relativeToChangelogFile: true
+            context: dev
